@@ -1,22 +1,3 @@
-/*
-En realidad este DB no tiene nada que ver
-con la aplicación.
-Solo está acá para referencia.
-*/    
-
-/*
-ALGUNOS COMANDOS ÚTILES EN LA CONSOLA DE MYSQL
-
-"CREATE DATABASE IF NOT EXISTS 'nombredb'";
-"show databases";
-"show tables" --Lista las tablas de una db
-"use 'nombredb'";
-"CREATE TABLE" (...);
-"describe 'nombreTabla'"; --Muestra en detalle los campos de una tabla
-"SELECT (...) FROM nombreTabla" -- Recordar que hacía el SELECT
-*/
-
-    --CREATE DATABASE alumnosdb;
     CREATE DATABASE IF NOT EXISTS alumnosdb;
 
     USE alumnosdb;
@@ -28,7 +9,6 @@ ALGUNOS COMANDOS ÚTILES EN LA CONSOLA DE MYSQL
         fechaNacimiento DATE NOT NULL,
         PRIMARY KEY (id)
     );
-        --fechaNacimiento DATE NOT NULL,
 
 DESCRIBE alumnos;
 
